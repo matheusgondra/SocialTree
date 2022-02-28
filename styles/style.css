@@ -6,15 +6,11 @@
 body {
    font-family: 'Poppins', sans-serif;
    background-color: var(--body-bg-color);
-}
-
-
-main {
+   height: 100vh;
    display: flex;
    flex-direction: column;
-   justify-content: center;
    align-items: center;
-   height: 100vh;
+   justify-content: center;
 }
 
 a, a:hover, a:visited {
@@ -58,4 +54,17 @@ nav {
    flex-direction: column;
    justify-content: center;
    margin-bottom: 1rem;
+}
+
+.footer_links {
+   display: flex;
+   margin-top: 38px;
+}
+
+.footer_links_link {
+   margin-left: 29px;
+}
+
+.footer_links_link:first-child {
+   margin-left: 0px;
 }
