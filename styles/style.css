@@ -3,6 +3,33 @@
    --purple: #BB99DD;
 }
 
-html {
+body {
    font-family: 'Poppins', sans-serif;
+   background-color: var(--body-bg-color);
+}
+
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.user {
+   text-align: center;
+}
+
+.user_photo {
+   border-radius: 50%;
+   border: 2px solid var(--purple);
+   height: 200px;
+   padding: 7px;
+   margin-bottom: 15px;
+}
+
+.title {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 24px;
 }
